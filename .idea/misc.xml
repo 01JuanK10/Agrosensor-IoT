@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.13 (IoT)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (IoT)" project-jdk-type="Python SDK" />
+  <component name="WokwiProjectSettings">
+    <option name="wokwiConfigPath" value="esp32/wokwi.toml" />
+    <option name="wokwiDiagramPath" value="esp32/diagram.json" />
+  </component>
+</project>

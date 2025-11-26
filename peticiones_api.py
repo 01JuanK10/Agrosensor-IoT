@@ -26,7 +26,7 @@ def registrar_usuario_dispositivo():
     }
 
     try:
-        response = urequests.post(
+        response = urequests.put(
             URL_REGISTER_USER,
             data=json.dumps(data),
             headers={"Content-Type": "application/json"}
@@ -76,6 +76,7 @@ def registrar_dispositivo():
     data = {
         "type": "esp32",
         "id": mac,
+        "active": True,
         "location": {
             "latitude": 6.25184,
             "longitude": -75.56359,
